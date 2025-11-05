@@ -3,11 +3,12 @@ import { Header } from './components/Header';
 import { TryOnStudio } from './components/TryOnStudio';
 import { Footer } from './components/Footer';
 import { MapExplorer } from './components/MapExplorer';
+import { LandingPage } from './components/LandingPage';
 import type { ClothingItem } from './types';
 import { clothingItems } from './constants';
 
 export default function App() {
-  const [view, setView] = useState<'map' | 'studio'>('map');
+  const [view, setView] = useState<'landing' | 'map' | 'studio'>('landing');
   const [selectedClothing, setSelectedClothing] = useState<ClothingItem>(clothingItems[0]);
 
   const handleSelectFromMap = (item: ClothingItem) => {
@@ -17,6 +18,14 @@ export default function App() {
 
   const handleNavigate = (targetView: 'map' | 'studio') => {
     setView(targetView);
+  }
+
+  const handleStart = () => {
+    setView('map');
+  }
+
+  if (view === 'landing') {
+    return <LandingPage onStart={handleStart} />;
   }
 
   return (

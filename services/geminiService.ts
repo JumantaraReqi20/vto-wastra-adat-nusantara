@@ -71,7 +71,8 @@ export const generateVirtualTryOn = async (
       },
     });
     
-    for (const part of result.candidates[0].content.parts) {
+    // FIX: Add optional chaining and a fallback to an empty array to safely access response parts.
+    for (const part of result.candidates?.[0]?.content?.parts || []) {
         if (part.inlineData) {
             const base64ImageBytes: string = part.inlineData.data;
             return `data:${part.inlineData.mimeType};base64,${base64ImageBytes}`;
