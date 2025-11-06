@@ -6,7 +6,7 @@ export const clothingItems: ClothingItem[] = [
     name: 'Baju Adat Dayak',
     origin: 'Kalimantan',
     description: 'Pakaian adat Suku Dayak, kaya akan motif alam dan manik-manik yang melambangkan status dan keberanian.',
-    imageUrl: 'https://i.ibb.co/L5hY5sD/wastra-dayak.png',
+    imageUrl: '/assets/wastra-dayak.png',
     coordinates: { lat: -0.5, lng: 114.0 },
   },
   {
@@ -14,7 +14,7 @@ export const clothingItems: ClothingItem[] = [
     name: 'Bundo Kanduang',
     origin: 'Sumatera Barat',
     description: 'Pakaian adat Minangkabau yang megah, melambangkan peran penting perempuan dalam adat matrilineal.',
-    imageUrl: 'https://i.ibb.co/xL3kX4R/wastra-minang.png',
+    imageUrl: '/assets/wastra-minang.png',
     coordinates: { lat: -0.94, lng: 100.36 },
   },
   {
@@ -22,7 +22,7 @@ export const clothingItems: ClothingItem[] = [
     name: 'Baju Bodo',
     origin: 'Sulawesi Selatan',
     description: 'Salah satu busana tertua di dunia, Baju Bodo dari Suku Bugis-Makassar memiliki warna yang menandakan usia dan status.',
-    imageUrl: 'https://i.ibb.co/pP3wY9w/wastra-bugis.png',
+    imageUrl: '/assets/wastra-bugis.png',
     coordinates: { lat: -4.5, lng: 120.0 },
   },
   {
@@ -30,7 +30,7 @@ export const clothingItems: ClothingItem[] = [
     name: 'Payas Agung',
     origin: 'Bali',
     description: 'Busana adat Bali yang mewah dan agung, biasanya dikenakan saat upacara pernikahan atau potong gigi.',
-    imageUrl: 'https://i.ibb.co/b343H7Z/wastra-bali.png',
+    imageUrl: '/assets/wastra-bali.png',
     coordinates: { lat: -8.4, lng: 115.18 },
   },
   {
@@ -38,7 +38,7 @@ export const clothingItems: ClothingItem[] = [
     name: 'Ulos Batak',
     origin: 'Sumatera Utara',
     description: 'Kain tenun Ulos yang menjadi simbol restu, kasih sayang, dan persatuan dalam masyarakat Batak.',
-    imageUrl: 'https://i.ibb.co/3s68KzY/wastra-batak.png',
+    imageUrl: '/assets/wastra-batak.png',
     coordinates: { lat: 2.5, lng: 99.0 },
   },
   {
@@ -46,7 +46,7 @@ export const clothingItems: ClothingItem[] = [
     name: 'Kebaya Jawa',
     origin: 'Jawa Tengah',
     description: 'Kebaya Jawa adalah busana anggun yang mencerminkan filosofi kesederhanaan dan kelembutan wanita Jawa.',
-    imageUrl: 'https://i.ibb.co/C0W7gB9/wastra-jawa.png',
+    imageUrl: '/assets/wastra-jawa.png',
     coordinates: { lat: -7.15, lng: 110.14 },
   },
   {
@@ -54,7 +54,7 @@ export const clothingItems: ClothingItem[] = [
     name: 'Pangsi Betawi',
     origin: 'DKI Jakarta',
     description: 'Pakaian khas kaum lelaki Betawi yang melambangkan kebebasan bergerak dan kesederhanaan.',
-    imageUrl: 'https://i.ibb.co/3cYv3s7/wastra-betawi.png',
+    imageUrl: '/assets/wastra-betawi.png',
     coordinates: { lat: -6.2, lng: 106.81 },
   },
   {
@@ -62,7 +62,7 @@ export const clothingItems: ClothingItem[] = [
     name: 'Kebaya Sunda',
     origin: 'Jawa Barat',
     description: 'Kebaya Sunda dikenal dengan desainnya yang elegan dan pas di badan, sering dipadukan dengan kain batik corak Sunda.',
-    imageUrl: 'https://i.ibb.co/k2V40hF/wastra-sunda.png',
+    imageUrl: '/assets/wastra-sunda.png',
     coordinates: { lat: -6.91, lng: 107.61 },
   },
   {
@@ -70,7 +70,7 @@ export const clothingItems: ClothingItem[] = [
     name: 'Pesa\'an Madura',
     origin: 'Jawa Timur',
     description: 'Busana pria Madura dengan kaos bergaris merah-putih dan celana gombrong, melambangkan keberanian dan semangat juang.',
-    imageUrl: 'https://i.ibb.co/3s8sXbY/wastra-madura.png',
+    imageUrl: '/assets/wastra-madura.png',
     coordinates: { lat: -7.0, lng: 113.5 },
   },
   {
@@ -78,7 +78,7 @@ export const clothingItems: ClothingItem[] = [
     name: 'Ulee Balang',
     origin: 'Aceh',
     description: 'Pakaian kebesaran bangsawan Aceh, sarat dengan sulaman benang emas yang menunjukkan kemewahan dan status sosial.',
-    imageUrl: 'https://i.ibb.co/f4bQ56v/wastra-aceh.png',
+    imageUrl: '/assets/wastra-aceh.png',
     coordinates: { lat: 5.55, lng: 95.32 },
   },
   {
@@ -86,7 +86,7 @@ export const clothingItems: ClothingItem[] = [
     name: 'Tulang Bawang',
     origin: 'Lampung',
     description: 'Pakaian adat Lampung yang menggunakan kain tapis, kain tenun khas yang disulam dengan benang emas atau perak.',
-    imageUrl: 'https://i.ibb.co/bF9s7Qn/wastra-lampung.png',
+    imageUrl: '/assets/wastra-lampung.png',
     coordinates: { lat: -4.55, lng: 105.4 },
   },
   {
@@ -94,7 +94,7 @@ export const clothingItems: ClothingItem[] = [
     name: 'Teluk Belanga',
     origin: 'Riau',
     description: 'Baju kurung longgar untuk pria dan wanita Melayu, mencerminkan nilai-nilai kesopanan dan keislaman.',
-    imageUrl: 'https://i.ibb.co/gDDb26j/wastra-riau.png',
+    imageUrl: '/assets/wastra-riau.png',
     coordinates: { lat: 0.5, lng: 101.44 },
   },
   {
@@ -102,7 +102,7 @@ export const clothingItems: ClothingItem[] = [
     name: 'Baju Kurung Tanggung',
     origin: 'Jambi',
     description: 'Baju kurung khas Jambi yang panjang lengannya tanggung (tiga perempat), sering dihiasi sulaman emas.',
-    imageUrl: 'https://i.ibb.co/1Mj1C02/wastra-jambi.png',
+    imageUrl: '/assets/wastra-jambi.png',
     coordinates: { lat: -1.61, lng: 103.61 },
   },
   {
@@ -110,7 +110,7 @@ export const clothingItems: ClothingItem[] = [
     name: 'Paksian',
     origin: 'Bangka Belitung',
     description: 'Pakaian pengantin wanita yang terinspirasi dari busana Tionghoa, menunjukkan akulturasi budaya di Bangka Belitung.',
-    imageUrl: 'https://i.ibb.co/yQjJm2Y/wastra-bangkabelitung.png',
+    imageUrl: '/assets/wastra-bangkabelitung.png',
     coordinates: { lat: -2.74, lng: 106.44 },
   },
   {
@@ -118,7 +118,7 @@ export const clothingItems: ClothingItem[] = [
     name: 'Baju Pangsi Banten',
     origin: 'Banten',
     description: 'Pakaian sederhana masyarakat Baduy dan Banten, melambangkan kesahajaan dan kedekatan dengan alam.',
-    imageUrl: 'https://i.ibb.co/JqH0ZJt/wastra-banten.png',
+    imageUrl: '/assets/wastra-banten.png',
     coordinates: { lat: -6.4, lng: 106.06 },
   },
   {
@@ -126,7 +126,7 @@ export const clothingItems: ClothingItem[] = [
     name: 'Kasatrian Ageng',
     origin: 'Yogyakarta',
     description: 'Busana kebesaran pria di Keraton Yogyakarta, terdiri dari kain batik, surjan, dan blangkon dengan corak khas.',
-    imageUrl: 'https://i.ibb.co/SJVpP5c/wastra-yogyakarta.png',
+    imageUrl: '/assets/wastra-yogyakarta.png',
     coordinates: { lat: -7.79, lng: 110.36 },
   },
   {
@@ -134,7 +134,7 @@ export const clothingItems: ClothingItem[] = [
     name: 'Ta\'a & Sapei Sapaq',
     origin: 'Kalimantan Utara',
     description: 'Pakaian wanita (Ta\'a) dan pria (Sapei Sapaq) dari Dayak Kenyah, dihiasi manik-manik dan taring macan.',
-    imageUrl: 'https://i.ibb.co/qN9B55p/wastra-kaltara.png',
+    imageUrl: '/assets/wastra-kaltara.png',
     coordinates: { lat: 3.0, lng: 116.0 },
   },
   {
@@ -142,7 +142,7 @@ export const clothingItems: ClothingItem[] = [
     name: 'Biliu & Makuta',
     origin: 'Gorontalo',
     description: 'Pakaian pengantin Gorontalo (Biliu untuk wanita, Makuta untuk pria) yang sarat dengan hiasan keemasan.',
-    imageUrl: 'https://i.ibb.co/f88j31C/wastra-gorontalo.png',
+    imageUrl: '/assets/wastra-gorontalo.png',
     coordinates: { lat: 0.54, lng: 123.05 },
   },
   {
@@ -150,7 +150,7 @@ export const clothingItems: ClothingItem[] = [
     name: 'Laku Tepu',
     origin: 'Sulawesi Utara',
     description: 'Pakaian adat dari Sangihe Talaud yang terbuat dari serat tanaman pisang abaka, berbentuk terusan panjang.',
-    imageUrl: 'https://i.ibb.co/f2P82C4/wastra-sulut.png',
+    imageUrl: '/assets/wastra-sulut.png',
     coordinates: { lat: 1.48, lng: 124.84 },
   },
   {
@@ -158,7 +158,7 @@ export const clothingItems: ClothingItem[] = [
     name: 'Baju Nggembe',
     origin: 'Sulawesi Tengah',
     description: 'Baju adat untuk remaja putri Kaili, berbentuk segi empat dengan hiasan manik-manik di bagian leher.',
-    imageUrl: 'https://i.ibb.co/4T7t8zX/wastra-sulteng.png',
+    imageUrl: '/assets/wastra-sulteng.png',
     coordinates: { lat: -0.9, lng: 119.86 },
   },
   {
@@ -166,7 +166,7 @@ export const clothingItems: ClothingItem[] = [
     name: 'Pattuqduq Towaine',
     origin: 'Sulawesi Barat',
     description: 'Busana penari wanita Mandar, terdiri dari baju kurung, lipa\' saqbe (sarung sutra), dan hiasan kepala yang khas.',
-    imageUrl: 'https://i.ibb.co/7jXgC0F/wastra-sulbar.png',
+    imageUrl: '/assets/wastra-sulbar.png',
     coordinates: { lat: -2.67, lng: 118.86 },
   },
   {
@@ -174,7 +174,7 @@ export const clothingItems: ClothingItem[] = [
     name: 'Babu Nggawi',
     origin: 'Sulawesi Tenggara',
     description: 'Pakaian adat suku Tolaki untuk wanita, terdiri dari blus dan sarung tenun dengan corak gemerlap.',
-    imageUrl: 'https://i.ibb.co/mH0QYf6/wastra-sultra.png',
+    imageUrl: '/assets/wastra-sultra.png',
     coordinates: { lat: -3.98, lng: 122.51 },
   },
   {
@@ -182,7 +182,7 @@ export const clothingItems: ClothingItem[] = [
     name: 'Baju Lambung',
     origin: 'Nusa Tenggara Barat',
     description: 'Pakaian adat suku Sasak di Lombok, berupa baju hitam tanpa lengan dengan hiasan di bagian dada.',
-    imageUrl: 'https://i.ibb.co/y5YkYv3/wastra-ntb.png',
+    imageUrl: '/assets/wastra-ntb.png',
     coordinates: { lat: -8.58, lng: 116.11 },
   },
   {
@@ -190,7 +190,7 @@ export const clothingItems: ClothingItem[] = [
     name: 'Pakaian Adat Rote',
     origin: 'Nusa Tenggara Timur',
     description: 'Dikenal dengan topi khas Ti\'i langga untuk pria, dan kain tenun ikat yang kaya motif untuk wanita.',
-    imageUrl: 'https://i.ibb.co/L5k6Y1G/wastra-ntt.png',
+    imageUrl: '/assets/wastra-ntt.png',
     coordinates: { lat: -10.5, lng: 123.0 },
   },
   {
@@ -198,7 +198,7 @@ export const clothingItems: ClothingItem[] = [
     name: 'Baju Cele',
     origin: 'Maluku',
     description: 'Kain kebaya yang dipadukan dengan sarung tenun, memiliki corak kotak-kotak kecil yang khas.',
-    imageUrl: 'https://i.ibb.co/XDNq57H/wastra-maluku.png',
+    imageUrl: '/assets/wastra-maluku.png',
     coordinates: { lat: -3.69, lng: 128.18 },
   },
 ];
