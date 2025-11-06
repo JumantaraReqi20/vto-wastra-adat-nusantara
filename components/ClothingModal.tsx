@@ -40,7 +40,7 @@ export const ClothingModal: React.FC<ClothingModalProps> = ({ item, onClose }) =
                 Tertarik melihat atau membeli pakaian adat dari daerah ini? Jelajahi rekomendasi di marketplace berikut:
             </p>
 
-            {/* CTA SHOPEE */}
+            {/* CTA Marketplace */}
             <div className="mt-8 flex">
               <a
                 href={`https://shopee.co.id/search?keyword=baju%20adat%20${encodeURIComponent(item.origin)}`}
@@ -54,7 +54,7 @@ export const ClothingModal: React.FC<ClothingModalProps> = ({ item, onClose }) =
                 <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2 9h14l-2-9M10 21a1 1 0 11-2 0 1 1 0 012 0zm8 0a1 1 0 11-2 0 1 1 0 012 0z" />
                 </svg>
-                Cari Baju Adat Daerah ini di Shopee
+                Cari Baju Adat Daerah ini di Marketplace
               </a>
             </div>
 
