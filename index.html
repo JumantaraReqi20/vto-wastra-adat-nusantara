@@ -41,6 +41,138 @@
       ::-webkit-scrollbar-thumb:hover {
         background: #8c7a69;
       }
+      @keyframes modal-fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes modal-slide-up {
+  from { opacity: 0; transform: translateY(30px) scale(0.98); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+/* 1. Backdrop (Latar Belakang)
+ * Ini adalah 'efek glass' yang Anda minta.
+ */
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  
+  /* --- EFEK GLASS --- */
+  background-color: rgba(0, 0, 0, 0.5); /* Transparansi rendah */
+  backdrop-filter: blur(10px); /* Efek blur */
+  -webkit-backdrop-filter: blur(10px); /* Safari support */
+  /* ---------------- */
+  
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem; /* Padding untuk layar HP */
+  animation: modal-fade-in 0.3s ease-out;
+}
+
+/* 2. Konten Modal (Box Putih) */
+.modal-content {
+  position: relative;
+  background-color: white;
+  box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  overflow: hidden; /* Penting! */
+
+  /* --- Mobile First: Full Screen --- */
+  width: 100%;
+  height: 100vh; /* Fallback */
+  height: 100dvh; /* Dynamic viewport height */
+  border-radius: 0;
+  padding: 1.5rem;
+  padding-top: 5rem; /* Ruang untuk tombol close */
+  animation: modal-fade-in 0.2s ease-out;
+  
+  display: flex;
+  flex-direction: column;
+}
+
+/* --- Desktop: Mendekati Ukuran Layar --- */
+@media (min-width: 768px) {
+  .modal-content {
+    width: 95vw;  /* 95% Lebar Layar */
+    height: 90vh; /* 90% Tinggi Layar */
+    height: 90dvh;
+    border-radius: 1.5rem;
+    padding: 2.5rem;
+    animation: modal-slide-up 0.4s ease-out;
+  }
+}
+
+/* 3. Tombol Close (Posisinya fixed di atas) */
+.modal-close-button {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  z-index: 110;
+  background-color: rgba(243, 244, 246, 0.8); /* Agak transparan */
+  color: #374151; /* text-gray-700 */
+  border: none;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 9999px;
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-close-button:hover {
+  background-color: #f3f4f6; /* Solid saat di-hover */
+  transform: scale(1.05) rotate(90deg);
+}
+
+/* 4. SOLUSI SCROLLING RESPONSIVE */
+
+/* Div pembungkus 2 kolom */
+.modal-content > .flex {
+  flex-grow: 1;
+  overflow: hidden;
+}
+
+/* Kolom Kanan (Teks) */
+.modal-scrollbar {
+  overflow-y: auto;
+  flex-grow: 1; /* Di mobile, ini mengisi sisa tinggi */
+  padding-right: 0.5rem;
+}
+
+/* Kolom Kiri (Gambar) */
+.modal-image-column {
+   /* Di desktop, kolom gambar juga bisa scroll jika layarnya pendek */
+   @media (min-width: 768px) {
+     /* overflow-y: auto; */
+     padding-right: 1.5rem;
+   }
+}
+
+/* 5. Custom Scrollbar */
+.modal-scrollbar::-webkit-scrollbar,
+.modal-image-column::-webkit-scrollbar {
+  width: 8px;
+}
+.modal-scrollbar::-webkit-scrollbar-track,
+.modal-image-column::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+.modal-scrollbar::-webkit-scrollbar-thumb,
+.modal-image-column::-webkit-scrollbar-thumb {
+  background: #a89580; 
+  border-radius: 10px;
+}
+.modal-scrollbar::-webkit-scrollbar-thumb:hover,
+.modal-image-column::-webkit-scrollbar-thumb:hover {
+  background: #8c7a69;
+}
     </style>
   <script type="importmap">
 {

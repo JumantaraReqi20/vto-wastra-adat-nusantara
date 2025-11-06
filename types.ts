@@ -5,6 +5,9 @@ export interface ClothingItem {
   description: string;
   imageUrl: string;
   coordinates: { lat: number; lng: number };
+  sejarah?: string;
+  filosofi?: string;
+  konteks?: string;
 }
 
 export enum VTOStatus {
